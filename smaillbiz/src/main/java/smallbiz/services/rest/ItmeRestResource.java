@@ -28,7 +28,7 @@ import smaillbiz.entities.Item;
 @Produces ({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
 @Consumes ({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
 @Stateless
-public class ItemRestService {
+public class ItmeRestResource {
     //the PersistenceContext annotation is a shortcut that hides the fact
     //that, an entity manager is always obtained from an EntityManagerFactory.
     //The peristitence.xml file defines persistence units which is supplied by name

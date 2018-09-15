@@ -9,7 +9,7 @@ import org.eclipse.persistence.annotations.UuidGenerator;
 
 /**
  * The persistent class for the item database table.
- * 
+ * This should be used.
  */
 @UuidGenerator(name="UUID")
 @XmlRootElement
